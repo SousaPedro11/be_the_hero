@@ -1,2 +1,2 @@
-# semana-omnistack11
+# Be The Hero
 Aplicação da Semana OmniStack 11

@@ -1,16 +1,13 @@
 const express = require('express')
+const routes = require('./routes')
 
 const port = 3333;
 
 const app = express();
 
 app.use(express.json())
+app.use(routes)
 
-app.get('/', (request, response) => {
-    return response.json({
-        evento: 'Semana OmniStack',
-        aluno: "Pedro Sousa"
-    })
-});
+
 
 app.listen(port);

@@ -1,5 +1,3 @@
-// Update with your config settings.
-
 module.exports = {
 
   development: {
@@ -10,7 +8,7 @@ module.exports = {
     migrations: {
       directory: './src/database/migrations'
     },
-    useNullAsDefault: true,
+    useNullAsDefault: true
   },
 
   staging: {
